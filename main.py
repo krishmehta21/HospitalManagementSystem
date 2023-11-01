@@ -32,7 +32,7 @@ def dsearch():
 f = tkinter.Tk()
 f.title("Hospital Management Software")
 f.geometry("1540x800+0+0")
-l = tkinter.Label(f,bd=20,relief= "ridge" ,text="MEHTA CLINIC", fg = "Black", bg = "Grey" , font =("Times New Roman",35,"bold") )
+l = tkinter.Label(f,bd=20,relief= "ridge" ,text="CHECKUP CLINIC", fg = "Black", bg = "Grey" , font =("Times New Roman",35,"bold") )
 l.pack(fill = 'x')
 
 #==========================DATA FRAMES============================================
@@ -51,11 +51,10 @@ txt = tkinter.Text(dfleft , bd = 4, height = 12, width = 65, font = ("Arial" , 1
 txt.insert('2.0','Welcome USER \n \n')
 txt.insert('3.0','This software was was made using tkitner module in Python along with a database    made in MySQL \n')
 txt.insert('4.0','Its purpose is to manage and organize the data used in a hospital \n')
-txt.insert('6.0','Python Mini Project \n')
+txt.insert('6.0','Python Project \n')
 txt.insert('7.0','Btech CSE Core \n')
-txt.insert('8.0','L1 Section \n')
-txt.insert('9.0','Made by:  Krish Mehta (RA2211003010806)\n ')
-txt.insert('9.0','\tSaiyyam Ahuja (RA2211003010866) \n ')
+txt.insert('8.0','Made by:  Krish Mehta (RA2211003010806)\n ')
+
 txt.place(y = 50 , x = 0)
 
 
